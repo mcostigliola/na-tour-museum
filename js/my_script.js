@@ -1,14 +1,9 @@
-var list_items = document.querySelectorAll('#hamb_menu>ul>li');
-
-for (var i = 0; i < list_items.length; i++) {
-  list_items[i].addEventListener("click", toggle);
-}
-
-function toggle() {
-  this.classList.toggle("#hamb_menu");
-}
-
-
-
-
-
+// added a function to put a links in hamburger menu
+function myFunction() {
+    var x = document.getElementById("list");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }

@@ -12,20 +12,20 @@
     align-items: center;
     justify-content: space-around;
   }
-  
+
   header nav img#logo {
-      width: 3rem;
+    width: 3rem;
   }
 
   header nav ul {
-      list-style: none;
+    list-style: none;
   }
 
   header nav ul li a {
-      text-decoration: none;
+    text-decoration: none;
   }
 
-  main section div.container{
+  main section div.container {
     width: 100%;
     height: 50vh;
     display: flex;
@@ -34,26 +34,30 @@
     border: 1px solid black;
   }
 
-  main section div h1#title{
+  main section div h1#title {
     font-size: 2rem;
     margin-top: 2.5rem;
   }
 
-  main section div#subtitle{
+  main section div#subtitle {
     text-align: justify;
     padding: 2rem;
   }
 
-  main section div button#callToAction{
+  main section div button#callToAction {
     width: 9rem;
     height: 3rem;
-    padding: .3rem;
+    padding: 0.3rem;
     font-size: 1rem;
     cursor: pointer;
   }
 
+  header nav ul#list {
+    display: none;
+    position: absolute;
+    right: 0.5rem;
+    top: 3rem;
+    border: 1px solid black;
+    padding: inherit;
+  }
 }
-
-
-
-
