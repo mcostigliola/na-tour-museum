@@ -71,4 +71,22 @@
     justify-content: center;
     margin-right: 3rem;
   }
+
+  section div div.img-thumbnail{
+    border: 1px solid black;
+    width: 65vw;
+    height: 24vh;
+    margin-top: 1rem;
+  }
+
+  section div div.img-thumbnail div.top-img{
+    border: 1px solid black;
+    background-color: lightblue;
+    width: 100%;
+    height: 4.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
