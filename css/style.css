@@ -56,14 +56,16 @@
   header nav ul#list {
     display: none;
     position: absolute;
-    right: 0;
-    top: 3rem;
+    top: 2.9rem;
     border: 1px solid black;
-    padding: 2.5rem;
     background-color: aliceblue;
+    width: 100%;
   }
 
   header nav ul#list a {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 3rem;
   }
 }
