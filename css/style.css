@@ -9,7 +9,7 @@
     margin: 0;
     width: 100%;
     min-height: 9vh;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     flex-flow: column;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
 
   main section div h1#title {
@@ -60,7 +60,7 @@
     display: none;
     position: absolute;
     top: 4.5rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: aliceblue;
     width: 100%;
   }
@@ -73,7 +73,7 @@
   }
 
   section div div.img-thumbnail {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 65vw;
     height: 24vh;
     margin-top: 1rem;
@@ -84,7 +84,7 @@
   }
 
   section div div.img-thumbnail div.top-img {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: lightblue;
     width: 100%;
     height: 4.5vh;
@@ -109,11 +109,21 @@
   }
 
   section#services div.references {
-    border: 5px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: 24vh;
     display: flex;
     align-items: center;
     justify-content: ;
   }
+
+  div.references div.icon i{
+    font-size: 5rem;
+    margin: 1rem 1rem;
+  }
+
+  div.references div.text-icon{
+    padding: 1rem 1rem;
+  }
+
 }
