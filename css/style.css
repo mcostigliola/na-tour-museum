@@ -13,6 +13,13 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #1a4a3a;
+    color: white;
+    position: fixed;
+  }
+
+  header nav a i.color_icon {
+    color: white;
   }
 
   header nav img#logo {
@@ -27,6 +34,15 @@
     text-decoration: none;
   }
 
+  main section#description {
+    background-image: url(../images/museo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+  }
+
   main section div.container {
     width: 100%;
     min-height: 50vh;
@@ -38,7 +54,7 @@
 
   main section div h1#title {
     font-size: 2rem;
-    margin-top: 2.5rem;
+    margin-top: 6.5rem;
   }
 
   main section div#subtitle {
@@ -51,9 +67,12 @@
     height: 3rem;
     padding: 0.3rem;
     font-size: 1rem;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     background: none;
     cursor: pointer;
+    color: white;
+    font-weight: bold;
+    overflow: -moz-hidden-unscrollable;
   }
 
   header nav ul#list {
@@ -61,7 +80,7 @@
     position: absolute;
     top: 4.5rem;
     /* border: 1px solid black; */
-    background-color: aliceblue;
+    background-color: #1a4a3a;
     width: 100%;
   }
 
@@ -70,6 +89,39 @@
     display: flex;
     justify-content: center;
     margin-right: 3rem;
+    color: white;
+  }
+
+  section#thumbnail {
+    background-color: white;
+    opacity: 0.9;
+    margin-top: -1rem;
+  }
+
+  section#thumbnail div#img-div-1 {
+    background-image: url(../images/museo-div-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin-top: 2rem;
+  }
+
+  section#thumbnail div#img-div-2 {
+    background-image: url(../images/museo-div-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
+
+  section#thumbnail div#img-div-3 {
+    background-image: url(../images/museo-div-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin-bottom: 1rem;
   }
 
   section div div.img-thumbnail {
@@ -85,7 +137,7 @@
 
   section div div.img-thumbnail div.top-img {
     /* border: 1px solid black; */
-    background-color: lightblue;
+    /*  background-color: lightblue; */
     width: 100%;
     height: 4.5vh;
     display: flex;
@@ -98,14 +150,22 @@
     height: 2rem;
     padding: 0.3rem;
     font-size: 0.8rem;
-    border: 2px solid black;
+    /*  border: 2px solid black; */
     background: none;
     cursor: pointer;
     margin-bottom: 0.7rem;
+    color: white;
+    font-weight: bold;
   }
 
   section div.container:last-child {
     margin-bottom: 1rem;
+  }
+
+  section#services {
+    background-color: #339775;
+    color: white;
+    margin-top: -1rem;
   }
 
   section#services div.references {
@@ -114,30 +174,31 @@
     height: 24vh;
     display: flex;
     align-items: center;
-    justify-content: ;
   }
 
-  div.references div.icon i{
+  div.references div.icon i {
     font-size: 5rem;
     margin: 1rem 1rem;
   }
 
-  div.references div.text-icon{
+  div.references div.text-icon {
     padding: 1rem 1rem;
   }
 
-  footer{
-    background-color: lightgray;
+  footer {
+    background-color: #1a4a3a;
+    color: white !important;
+    margin-top: -1rem;
   }
 
-  footer div#bottom-page-news{
+  footer div#bottom-page-news {
     width: 100%;
     height: 14vh;
     display: flex;
     justify-content: center;
   }
 
-  footer div#bottom-page-nav{
+  footer div#bottom-page-nav {
     width: 100%;
     height: 14vh;
     display: flex;
@@ -145,12 +206,12 @@
     margin: 1rem 0;
   }
 
-  footer div div#news input[type='email']{
+  footer div div#news input[type="email"] {
     width: 100%;
     height: 4vh;
   }
 
-  footer div div#news{
+  footer div div#news {
     height: 14vh;
     display: flex;
     flex-flow: column;
@@ -159,14 +220,14 @@
     margin: 1rem 1rem;
   }
 
-  footer div div#menu-link{
+  footer div div#menu-link {
     width: 40%;
     height: 14vh;
     display: flex;
     justify-content: flex-start;
   }
 
-  footer div div#btn-social{
+  footer div div#btn-social {
     width: 40%;
     height: 14vh;
     display: flex;
@@ -174,16 +235,13 @@
     justify-content: space-around;
   }
 
-  footer div#bottom-page-nav div ul li{
+  footer div#bottom-page-nav div ul li {
     list-style: none;
     line-height: 1.5rem;
     font-size: 0.8rem;
   }
-  footer div#bottom-page-nav div ul li a{
+  footer div#bottom-page-nav div ul li a {
     text-decoration: none;
+    color: white;
   }
-
-
-
-
 }
